@@ -1,0 +1,123 @@
+2024-07-26 21:34:39,030:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 21:34:39,030:INFO:[33mPress CTRL+C to quit[0m
+2024-07-26 21:34:39,033:INFO: * Restarting with stat
+2024-07-26 21:34:39,150:WARNING: * Debugger is active!
+2024-07-26 21:34:39,166:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:35:03,299:INFO:127.0.0.1 - - [26/Jul/2024 21:35:03] "GET / HTTP/1.1" 200 -
+2024-07-26 21:35:03,328:INFO:127.0.0.1 - - [26/Jul/2024 21:35:03] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-26 21:35:03,329:INFO:127.0.0.1 - - [26/Jul/2024 21:35:03] "GET /static/logo.png HTTP/1.1" 200 -
+2024-07-26 21:36:25,027:INFO:Received CVE ID: CVE-2024-22354
+2024-07-26 21:37:29,536:INFO:Analysis completed for CVE-2024-22354
+2024-07-26 21:37:29,539:INFO:Files saved for CVE-2024-22354
+2024-07-26 21:37:29,551:INFO:127.0.0.1 - - [26/Jul/2024 21:37:29] "POST / HTTP/1.1" 200 -
+2024-07-26 21:37:29,593:INFO:127.0.0.1 - - [26/Jul/2024 21:37:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-26 21:40:19,144:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 21:40:19,147:INFO:[33mPress CTRL+C to quit[0m
+2024-07-26 21:40:19,150:INFO: * Restarting with stat
+2024-07-26 21:40:19,275:WARNING: * Debugger is active!
+2024-07-26 21:40:19,281:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:40:25,901:INFO:Received CVE ID: CVE-2024-22354
+2024-07-26 21:40:40,100:INFO:127.0.0.1 - - [26/Jul/2024 21:40:40] "GET / HTTP/1.1" 200 -
+2024-07-26 21:40:40,120:INFO:127.0.0.1 - - [26/Jul/2024 21:40:40] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-07-26 21:40:40,121:INFO:127.0.0.1 - - [26/Jul/2024 21:40:40] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-26 21:40:57,174:INFO:Received CVE ID: CVE-2023-51775
+2024-07-26 21:41:30,996:INFO:Analysis completed for CVE-2024-22354
+2024-07-26 21:41:31,000:INFO:Files saved for CVE-2024-22354
+2024-07-26 21:41:31,017:INFO:127.0.0.1 - - [26/Jul/2024 21:41:31] "POST / HTTP/1.1" 200 -
+2024-07-26 21:41:31,747:INFO:Analysis completed for CVE-2023-51775
+2024-07-26 21:41:31,748:INFO:Files saved for CVE-2023-51775
+2024-07-26 21:41:31,748:INFO:127.0.0.1 - - [26/Jul/2024 21:41:31] "POST / HTTP/1.1" 200 -
+2024-07-26 21:41:31,755:INFO:127.0.0.1 - - [26/Jul/2024 21:41:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-26 21:41:59,974:INFO:127.0.0.1 - - [26/Jul/2024 21:41:59] "GET /download/CVE-2023-51775_Executive_Analysis.md HTTP/1.1" 200 -
+2024-07-26 21:45:53,286:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 21:45:53,286:INFO:[33mPress CTRL+C to quit[0m
+2024-07-26 21:45:53,287:INFO: * Restarting with stat
+2024-07-26 21:45:53,436:WARNING: * Debugger is active!
+2024-07-26 21:45:53,442:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:45:59,034:INFO:127.0.0.1 - - [26/Jul/2024 21:45:59] "GET / HTTP/1.1" 200 -
+2024-07-26 21:45:59,050:INFO:127.0.0.1 - - [26/Jul/2024 21:45:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-26 21:45:59,050:INFO:127.0.0.1 - - [26/Jul/2024 21:45:59] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-07-26 21:45:59,246:INFO:127.0.0.1 - - [26/Jul/2024 21:45:59] "GET /socket.io/?EIO=4&transport=polling&t=P3lq-CC HTTP/1.1" 200 -
+2024-07-26 21:45:59,253:INFO:127.0.0.1 - - [26/Jul/2024 21:45:59] "GET /socket.io/?EIO=4&transport=polling&t=P3lq-CH.0&sid=M9gJnoJUaBEiHaDlAAAA HTTP/1.1" 200 -
+2024-07-26 21:45:59,257:INFO:127.0.0.1 - - [26/Jul/2024 21:45:59] "POST /socket.io/?EIO=4&transport=polling&t=P3lq-CH&sid=M9gJnoJUaBEiHaDlAAAA HTTP/1.1" 200 -
+2024-07-26 21:46:12,509:INFO:Received CVE ID: CVE-2022-46364
+2024-07-26 21:46:43,041:INFO:Files saved for CVE-2022-46364
+2024-07-26 21:48:03,783:INFO:127.0.0.1 - - [26/Jul/2024 21:48:03] "GET /socket.io/?EIO=4&transport=websocket&sid=M9gJnoJUaBEiHaDlAAAA HTTP/1.1" 200 -
+2024-07-26 21:48:03,789:INFO:127.0.0.1 - - [26/Jul/2024 21:48:03] "GET / HTTP/1.1" 200 -
+2024-07-26 21:48:03,806:INFO:127.0.0.1 - - [26/Jul/2024 21:48:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-26 21:48:03,806:INFO:127.0.0.1 - - [26/Jul/2024 21:48:03] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-07-26 21:48:03,832:INFO:127.0.0.1 - - [26/Jul/2024 21:48:03] "GET /socket.io/?EIO=4&transport=polling&t=P3lrScq HTTP/1.1" 200 -
+2024-07-26 21:48:03,843:INFO:127.0.0.1 - - [26/Jul/2024 21:48:03] "POST /socket.io/?EIO=4&transport=polling&t=P3lrScw&sid=zd2t1XUAIFHntkgQAAAC HTTP/1.1" 200 -
+2024-07-26 21:48:03,845:INFO:127.0.0.1 - - [26/Jul/2024 21:48:03] "GET /socket.io/?EIO=4&transport=polling&t=P3lrScx&sid=zd2t1XUAIFHntkgQAAAC HTTP/1.1" 200 -
+2024-07-26 21:48:03,847:INFO:127.0.0.1 - - [26/Jul/2024 21:48:03] "GET /socket.io/?EIO=4&transport=polling&t=P3lrSd6&sid=zd2t1XUAIFHntkgQAAAC HTTP/1.1" 200 -
+2024-07-26 21:48:32,959:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 21:48:32,959:INFO:[33mPress CTRL+C to quit[0m
+2024-07-26 21:48:32,959:INFO: * Restarting with stat
+2024-07-26 21:48:33,109:WARNING: * Debugger is active!
+2024-07-26 21:48:33,115:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:49:21,285:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 21:49:21,286:INFO:[33mPress CTRL+C to quit[0m
+2024-07-26 21:49:21,286:INFO: * Restarting with stat
+2024-07-26 21:49:21,432:WARNING: * Debugger is active!
+2024-07-26 21:49:21,439:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:49:49,806:INFO: * Detected change in '/Users/raghul/Desktop/myapp/app.py', reloading
+2024-07-26 21:49:49,852:INFO: * Restarting with stat
+2024-07-26 21:49:50,055:WARNING: * Debugger is active!
+2024-07-26 21:49:50,061:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:50:02,317:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 21:50:02,317:INFO:[33mPress CTRL+C to quit[0m
+2024-07-26 21:50:02,317:INFO: * Restarting with stat
+2024-07-26 21:50:02,463:WARNING: * Debugger is active!
+2024-07-26 21:50:02,468:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:52:42,707:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 21:52:42,707:INFO:[33mPress CTRL+C to quit[0m
+2024-07-26 21:52:42,707:INFO: * Restarting with stat
+2024-07-26 21:52:42,851:WARNING: * Debugger is active!
+2024-07-26 21:52:42,858:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:54:18,803:INFO:127.0.0.1 - - [26/Jul/2024 21:54:18] "GET / HTTP/1.1" 200 -
+2024-07-26 21:54:18,815:INFO:127.0.0.1 - - [26/Jul/2024 21:54:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-26 21:54:18,815:INFO:127.0.0.1 - - [26/Jul/2024 21:54:18] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-07-26 21:54:19,439:INFO:127.0.0.1 - - [26/Jul/2024 21:54:19] "GET /socket.io/?EIO=4&transport=polling&t=P3lsuJh HTTP/1.1" 200 -
+2024-07-26 21:54:19,455:INFO:127.0.0.1 - - [26/Jul/2024 21:54:19] "POST /socket.io/?EIO=4&transport=polling&t=P3lsuJo&sid=_qDkwxgn-xLcEMbJAAAA HTTP/1.1" 200 -
+2024-07-26 21:54:19,456:INFO:127.0.0.1 - - [26/Jul/2024 21:54:19] "GET /socket.io/?EIO=4&transport=polling&t=P3lsuJq&sid=_qDkwxgn-xLcEMbJAAAA HTTP/1.1" 200 -
+2024-07-26 21:54:19,472:INFO:127.0.0.1 - - [26/Jul/2024 21:54:19] "GET /socket.io/?EIO=4&transport=polling&t=P3lsuK7&sid=_qDkwxgn-xLcEMbJAAAA HTTP/1.1" 200 -
+2024-07-26 21:54:32,937:INFO:Received CVE ID: CVE-2021-26296
+2024-07-26 21:55:15,356:INFO:Files saved for CVE-2021-26296
+2024-07-26 21:55:44,153:INFO:127.0.0.1 - - [26/Jul/2024 21:55:44] "GET /socket.io/?EIO=4&transport=websocket&sid=_qDkwxgn-xLcEMbJAAAA HTTP/1.1" 200 -
+2024-07-26 21:55:46,759:INFO:127.0.0.1 - - [26/Jul/2024 21:55:46] "GET /socket.io/?EIO=4&transport=polling&t=P3ltDe3 HTTP/1.1" 200 -
+2024-07-26 21:55:46,787:INFO:127.0.0.1 - - [26/Jul/2024 21:55:46] "POST /socket.io/?EIO=4&transport=polling&t=P3ltDe7&sid=7KmLL386f1cFkI9lAAAC HTTP/1.1" 200 -
+2024-07-26 21:55:46,787:INFO:127.0.0.1 - - [26/Jul/2024 21:55:46] "GET /socket.io/?EIO=4&transport=polling&t=P3ltDe8&sid=7KmLL386f1cFkI9lAAAC HTTP/1.1" 200 -
+2024-07-26 21:55:46,792:INFO:127.0.0.1 - - [26/Jul/2024 21:55:46] "GET /socket.io/?EIO=4&transport=polling&t=P3ltDeb&sid=7KmLL386f1cFkI9lAAAC HTTP/1.1" 200 -
+2024-07-26 21:56:30,968:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 21:56:30,969:INFO:[33mPress CTRL+C to quit[0m
+2024-07-26 21:56:30,969:INFO: * Restarting with stat
+2024-07-26 21:56:31,117:WARNING: * Debugger is active!
+2024-07-26 21:56:31,124:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:57:52,619:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-26 21:57:52,619:INFO:[33mPress CTRL+C to quit[0m
+2024-07-26 21:57:52,619:INFO: * Restarting with stat
+2024-07-26 21:57:52,774:WARNING: * Debugger is active!
+2024-07-26 21:57:52,782:INFO: * Debugger PIN: 452-390-182
+2024-07-26 21:58:09,022:INFO:127.0.0.1 - - [26/Jul/2024 21:58:09] "GET / HTTP/1.1" 200 -
+2024-07-26 21:58:09,037:INFO:127.0.0.1 - - [26/Jul/2024 21:58:09] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-07-26 21:58:09,037:INFO:127.0.0.1 - - [26/Jul/2024 21:58:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-26 21:58:09,060:INFO:127.0.0.1 - - [26/Jul/2024 21:58:09] "GET /socket.io/?EIO=4&transport=polling&t=P3ltmNY HTTP/1.1" 200 -
+2024-07-26 21:58:09,068:INFO:127.0.0.1 - - [26/Jul/2024 21:58:09] "POST /socket.io/?EIO=4&transport=polling&t=P3ltmNd&sid=FVdMgVwwIfF2YncYAAAA HTTP/1.1" 200 -
+2024-07-26 21:58:09,069:INFO:127.0.0.1 - - [26/Jul/2024 21:58:09] "GET /socket.io/?EIO=4&transport=polling&t=P3ltmNe&sid=FVdMgVwwIfF2YncYAAAA HTTP/1.1" 200 -
+2024-07-26 21:58:27,858:INFO:Received CVE ID: CVE-2019-9518
+2024-07-26 21:59:12,796:INFO:Files saved for CVE-2019-9518
+2024-07-26 21:59:39,425:INFO:127.0.0.1 - - [26/Jul/2024 21:59:39] "GET /socket.io/?EIO=4&transport=websocket&sid=FVdMgVwwIfF2YncYAAAA HTTP/1.1" 200 -
+2024-07-26 21:59:39,428:INFO:127.0.0.1 - - [26/Jul/2024 21:59:39] "GET /download/CVE-2019-9518_Technical_Analysis.md HTTP/1.1" 200 -
+2024-07-26 22:00:10,156:INFO:127.0.0.1 - - [26/Jul/2024 22:00:10] "GET /socket.io/?EIO=4&transport=polling&t=P3luDxV HTTP/1.1" 200 -
+2024-07-26 22:00:10,171:INFO:127.0.0.1 - - [26/Jul/2024 22:00:10] "POST /socket.io/?EIO=4&transport=polling&t=P3luDxl&sid=0GqO3jJMUKjU3ONYAAAC HTTP/1.1" 200 -
+2024-07-26 22:00:10,171:INFO:127.0.0.1 - - [26/Jul/2024 22:00:10] "GET /socket.io/?EIO=4&transport=polling&t=P3luDxu&sid=0GqO3jJMUKjU3ONYAAAC HTTP/1.1" 200 -
+2024-07-26 22:00:10,178:INFO:127.0.0.1 - - [26/Jul/2024 22:00:10] "GET /socket.io/?EIO=4&transport=polling&t=P3luDy1&sid=0GqO3jJMUKjU3ONYAAAC HTTP/1.1" 200 -

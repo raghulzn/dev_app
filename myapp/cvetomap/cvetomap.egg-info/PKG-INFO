@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cvetomap
+Version: 1.0.0
+Summary: A tool to generate a complete analysis and threat report from vulnerabilities (CVE IDs) while perfectly complying with MITRE ATT&CK
+Home-page: https://linkedin.com/in/raghul-vijayakumar
+Author: Raghul V, Zeron
+Author-email: raghul1785@gmail.com
+License: MIT
+Requires-Dist: requests

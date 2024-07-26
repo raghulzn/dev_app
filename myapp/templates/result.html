@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CVE Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container result-container">
+        <h1>Results for {{ cve_id }}</h1>
+
+        <h2>Technical Analysis</h2>
+        <pre>{{ files['technical_analysis'] }}</pre>
+
+        <h2>Executive Analysis</h2>
+        <pre>{{ files['executive_analysis'] }}</pre>
+
+        <h2>MITRE ATT&CK Layer</h2>
+        <pre>{{ files['mitre_layer'] }}</pre>
+
+        <h2>STIX Object</h2>
+        <pre>{{ files['stix_obj'] }}</pre>
+
+        <ul>
+            <li><a href="{{ url_for('download', filename=files['technical_analysis']) }}">Download Technical Analysis</a></li>
+            <li><a href="{{ url_for('download', filename=files['executive_analysis']) }}">Download Executive Analysis</a></li>
+            <li><a href="{{ url_for('download', filename=files['mitre_layer']) }}">Download MITRE ATT&CK Layer</a></li>
+            <li><a href="{{ url_for('download', filename=files['stix_obj']) }}">Download STIX Bundle</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CVE Analysis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        .progress {
+            height: 20px;
+            margin-top: 20px;
+        }
+        .progress-bar {
+            width: 0%;
+            background-color: #007bff;
+            text-align: center;
+            color: white;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo">
+        <h1>Enter CVE ID to Analyze</h1>
+        <form id="cveForm">
+            <label for="cve_id">CVE ID:</label>
+            <input type="text" id="cve_id" name="cve_id" placeholder="E.g., CVE-2021-44228" required>
+            <button type="submit">Analyze</button>
+        </form>
+
+        <div id="progress-container" style="display:none;">
+            <div class="progress">
+                <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%">0%</div>
+            </div>
+            <p id="progress-message"></p>
+        </div>
+
+        <div id="result-container"></div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port);
+
+            $('#cveForm').submit(function(event) {
+                event.preventDefault();
+
+                var cveId = $('#cve_id').val();
+                $('#progress-container').show();
+                $('#progress-bar').css('width', '0%').text('0%');
+                $('#progress-message').text('');
+                $('#result-container').html('');
+
+                socket.emit('analyze_cve', {cve_id: cveId});
+
+                socket.on('progress', function(data) {
+                    $('#progress-bar').css('width', data.percentage + '%').text(data.percentage + '%');
+                    $('#progress-message').text(data.message);
+                });
+
+                socket.on('complete', function(data) {
+                    $('#progress-bar').css('width', '100%').text('100%');
+                    var resultHtml = `<h1>Results for ${data.cve_id}</h1>
+                                      <ul>
+                                          <li><a href="/download/${data.files.technical_analysis}">Download Technical Analysis</a></li>
+                                          <li><a href="/download/${data.files.executive_analysis}">Download Executive Analysis</a></li>
+                                          <li><a href="/download/${data.files.mitre_layer}">Download MITRE ATT&CK Layer</a></li>
+                                          <li><a href="/download/${data.files.stix_obj}">Download STIX Bundle</a></li>
+                                      </ul>`;
+                    $('#result-container').html(resultHtml);
+                });
+
+                socket.on('error', function(data) {
+                    $('#progress-bar').addClass('bg-danger').text('Error');
+                    $('#progress-message').text(data.message);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
